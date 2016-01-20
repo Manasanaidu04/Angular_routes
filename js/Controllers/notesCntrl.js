@@ -1,4 +1,4 @@
-var notesCntrl = app.module('notesController',[]);
+var notesCntrl = angular.module('notesController',[]);
 
 notesCntrl.controller('BasicNotesCntrl', ['$scope', function($scope){
     $scope.name = [

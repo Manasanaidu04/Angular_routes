@@ -1,4 +1,4 @@
-var vlcmCntrl = app.module('welcomeController',[]);
+var vlcmCntrl = angular.module('welcomeController',[]);
 
 vlcmCntrl.controller('helloCntrl', ['$scope',
      function($scope){
