@@ -11,7 +11,7 @@ var app = angular.module("MyApp", [
                   controller: 'helloCntrl'
                }).
                when('/notes',{
-                   templateUrl: 'js/Templates/notels.html',
+                   templateUrl: 'js/Templates/notes.html',
                    controller: 'BasicNotesCntrl'
                }).
                otherwise({

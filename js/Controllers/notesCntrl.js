@@ -1,18 +1,27 @@
 var notesCntrl = angular.module('notesController',[]);
 
 notesCntrl.controller('BasicNotesCntrl', ['$scope', function($scope){
-    $scope.name = [
+    $scope.intro = "Swara is a Sanskrit word that means a note in the octave.The seven basic swaras of the scale ";
+    $scope.swaras = [
         {
-            'name': 'sa'
+            'name': 'Shadja',
+            'Short name': 'Sa',
+            'notion': 'S'
         },
         {
-            'name': 'ri'
+            'name': 'Shuddha Rishabha',
+            'Short name': 'Ri',
+            'notion': 'R1'
         },
         {
-            'name': 'ga'
+            'name': 'Shuddha Gandhara',
+            'Short name': 'Ga',
+            'notion': 'G1'
         },
         {
-            'name': 'ma'
+            'name': 'Shuddha Madhyama',
+            'Short name': 'Ma',
+            'notion': 'M'
         }
     ];
 }    
